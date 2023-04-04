@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/zigbee_linearlayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00FFffff"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+                <Button
+                    android:id="@+id/bz_yyButton"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="标志物播报"
+                    android:background="@drawable/shape"
+                    android:textSize="21sp" />
+
+                <Button
+                    android:id = "@+id/voice_td_com"
+                    android:layout_width = "0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight = "0.5"
+                    android:background="@drawable/shape"
+                    android:text="播报特定指令"
+                    />
+
+                <EditText
+                    android:id="@+id/yyText"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:hint="语音播报测试"
+                    android:textSize="22sp" />
+
+                <Button
+                    android:id="@+id/yyButton"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="小车播报"
+                    android:background="@drawable/shape"
+                    android:textSize="22sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/qh_ab_Button"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="切换AB"
+                    android:background="@drawable/shape"
+                    android:textSize="25sp" />
+
+                <Button
+                    android:id="@+id/cxfButton"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="磁悬浮"
+                    android:background="@drawable/shape"
+                    android:textSize="23sp" />
+
+                <Button
+                    android:id="@+id/dzButton"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="道闸"
+                    android:background="@drawable/shape"
+                    android:textSize="25sp" />
+                <Button
+                    android:id="@+id/smgjlButton"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="距离"
+                    android:background="@drawable/shape"
+                    android:textSize="25sp" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/smgText"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:hint="数码管动态显示"
+                    android:textSize="25sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/smg01Button"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="数码管第一排显示"
+                    android:background="@drawable/shape"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/smg02Button"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="数码管第二排显示"
+                    android:background="@drawable/shape"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/jsqkButton"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="数码管计时器开"
+                    android:background="@drawable/shape"
+                    android:textSize="23sp" />
+
+                <Button
+                    android:id="@+id/jsqgButton"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="数码管计时器关"
+                    android:background="@drawable/shape"
+                    android:textSize="23sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <EditText
+                    android:id="@+id/tftText"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:gravity="center"
+                    android:hint="TFT动态数据显示"
+                    android:textSize="25sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+
+                <Button
+                    android:id="@+id/zdtxButton"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="指定图"
+                    android:background="@drawable/shape"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/tftjlButton"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="TFT距离"
+                    android:background="@drawable/shape"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/tftdtButton"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="TFT动态发送"
+                    android:background="@drawable/shape"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <RadioGroup
+                    android:id="@+id/tft_RadioGroup"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/dttxButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="自动翻页"
+                        android:background="@drawable/shape"
+                        android:textSize="19sp" />
+                    <Button
+                        android:id="@+id/tftfyupButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="向上翻页"
+                        android:background="@drawable/shape"
+                        android:textSize="19sp" />
+
+                    <Button
+                        android:id="@+id/tftfydownButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="向下翻页"
+                        android:background="@drawable/shape"
+                        android:textSize="19sp" />
+
+                    <Button
+                        android:id="@+id/tftcpxsButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="显示车牌"
+                        android:background="@drawable/shape"
+                        android:textSize="19sp" />
+                </RadioGroup>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1.5">
+
+                <Button
+                    android:id="@+id/tftjsfButton"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="TFT计时复位"
+                    android:background="@drawable/shape"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/tftjskButton"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="TFT计时开启"
+                    android:background="@drawable/shape"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/tftjsgButton"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="TFT计时关闭"
+                    android:background="@drawable/shape"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <EditText
+                    android:id="@+id/carportText"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:gravity="center"
+                    android:hint="立体车库层数"
+                    android:textSize="25sp" />
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <Button
+                    android:id="@+id/gain_carportButton"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="倒车入库"
+                    android:background="@drawable/shape"
+                    android:textSize="20sp" />
+
+
+                <Button
+                    android:id="@+id/gate_cp_Button"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="道闸车牌"
+                    android:background="@drawable/shape"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/carportButton"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="调整层数"
+                    android:background="@drawable/shape"
+                    android:textSize="20sp" />
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <Button
+                    android:id="@+id/gain_infraredButton"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="开启交通灯"
+                    android:background="@drawable/shape"
+                    android:textSize="20sp" />
+                <Button
+                    android:id="@+id/traffic_lightButton"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="交通灯测试"
+                    android:background="@drawable/shape"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</LinearLayout>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#50000000"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/mpsend"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="RESET_CAR" />
+
+        <TextView
+            android:id="@+id/mpcle"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="码盘："
+            android:textColor="#ffffffff"
+            android:textSize="25sp" />
+        <EditText
+            android:id="@+id/tv_popup_text"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="980"
+            android:textColor="#ffffffff"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/mpsave"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="SAVE" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/mpvaldown"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="-"
+            android:textSize="25sp" />
+
+        <SeekBar
+            android:id="@+id/mp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:max="2500"
+            android:progress="980"
+            android:scrollbarSize="50sp" /> 
+
+        <Button
+            android:id="@+id/mpvalup"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="+"
+            android:textSize="25sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/mpbzleftbtn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="BLEFT" />
+
+        <Button
+            android:id="@+id/mpleftbtn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="LEFT" />
+
+        <Button
+            android:id="@+id/mpleftdtbtn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="DTLEFT" />
+
+        <Button
+            android:id="@+id/mpupbtn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="UP" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/mpbzrightbtn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="BRIGHT" />
+
+        <Button
+            android:id="@+id/mprightbtn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="RIGHT" />
+
+        <Button
+            android:id="@+id/mprightdtbtn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="DTRIGHT" />
+
+        <Button
+            android:id="@+id/mpdownbtn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="DOWN" />
+    </LinearLayout>
+</LinearLayout>

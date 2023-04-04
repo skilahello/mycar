@@ -1,0 +1,1 @@
+E:\ebuild\newcar2022\opencv452\build\intermediates\cxx\Debug\5w426a30\obj\arm64-v8a

@@ -1,0 +1,242 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/cgback">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_alignParentLeft="true"
+                android:background="#00000000"
+                android:text="速度"
+                android:textSize="15dp" />
+
+            <EditText
+                android:id="@+id/et_speed"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="80" />
+
+            <Button
+                android:id="@+id/software_res"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#00000000"
+                android:text="软件复位"
+                android:textSize="15sp" />
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#00000000"
+                android:text="码盘(CM)"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/et_mp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="15"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="189dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="2"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/auto"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#00000000"
+                        android:text="全自动"
+                        android:textSize="20sp"
+                        android:theme="@style/MyButton"
+
+                        />
+
+                    <ToggleButton
+                        android:id="@+id/z_c_control"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#00000000"
+                        android:checked="true"
+                        android:textOff="从车"
+                        android:textOn="主车"
+                        android:textSize="20sp"
+                        android:theme="@style/MyButton" />
+
+                    <Button
+                        android:id="@+id/camera"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#00000000"
+                        android:text="预设位"
+                        android:textSize="20sp"
+                        android:theme="@style/MyButton" />
+
+
+                    <Button
+                        android:id="@+id/light"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#00000000"
+                        android:text="转向灯"
+                        android:textSize="20sp"
+                        android:theme="@style/MyButton" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="2"
+                    android:orientation="horizontal">
+
+                    <ToggleButton
+                        android:id="@+id/buzz"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#00000000"
+                        android:textOff="蜂鸣器"
+                        android:textOn="蜂鸣器"
+                        android:textSize="20sp"
+                        android:theme="@style/MyButton" />
+
+                    <ToggleButton
+                        android:id="@+id/control_flag_button"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#00000000"
+                        android:checked="true"
+                        android:textOff="参数模式"
+                        android:textOn="普通模式"
+                        android:textSize="20sp"
+                        android:theme="@style/MyButton" />
+
+                    <Button
+                        android:id="@+id/parameter_button"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="参数调整"
+                        android:background="#00000000"
+                        android:textSize="20sp" />
+
+                    <Button
+                        android:id="@+id/set_z_w_val"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#00000000"
+                        android:text="设置码盘"
+                        android:textSize="20sp"
+                        android:theme="@style/MyButton" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="6">
+                    <!--        -->
+                    <!-- 小车行进控制  相对布局-->
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="180dp">
+
+                        <ImageButton
+                            android:id="@+id/stop"
+                            android:layout_width="55dp"
+                            android:layout_height="55dp"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:background="@drawable/stop_button_g" />
+
+                        <ImageButton
+                            android:id="@+id/up"
+                            android:layout_width="55dp"
+                            android:layout_height="55dp"
+                            android:layout_above="@+id/stop"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:background="@drawable/up_button_g" />
+
+                        <ImageButton
+                            android:id="@+id/down"
+                            android:layout_width="55dp"
+                            android:layout_height="55dp"
+                            android:layout_below="@+id/stop"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:background="@drawable/below_button_g" />
+
+                        <ImageButton
+                            android:id="@+id/left"
+                            android:layout_width="55dp"
+                            android:layout_height="55dp"
+                            android:layout_below="@+id/up"
+                            android:layout_toStartOf="@+id/stop"
+                            android:background="@drawable/left_button_g" />
+
+                        <ImageButton
+                            android:id="@+id/right"
+                            android:layout_width="55dp"
+                            android:layout_height="55dp"
+                            android:layout_below="@+id/up"
+                            android:layout_toEndOf="@+id/stop"
+                            android:background="@drawable/right_button_g" />
+                    </RelativeLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

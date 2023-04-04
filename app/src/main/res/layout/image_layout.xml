@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/xsresult"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#00000000"
+                    android:hint="结果显示:区域:"
+                    android:textColor="#ff0062"
+                    android:textSize="30sp" />
+
+                <Button
+                    android:id="@+id/image_del_txt"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.2"
+                    android:background="#00000000"
+                    android:text="del"
+                    android:textSize="30sp"
+                    android:theme="@style/MyButton" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/qr_code"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#00000000"
+                        android:text="二维码"
+                        android:textSize="30sp"
+                        android:theme="@style/MyButton" />
+
+                    <Button
+                        android:id="@+id/image_lcr"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#00000000"
+                        android:text="图形识别"
+                        android:textSize="30sp"
+                        android:theme="@style/MyButton" />
+
+                    <Button
+                        android:id="@+id/car_plate"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#00000000"
+                        android:text="车牌识别"
+                        android:textSize="30sp"
+                        android:theme="@style/MyButton" />
+
+                    <Button
+                        android:id="@+id/car_photo"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#00000000"
+                        android:text="拍照"
+                        android:textSize="30sp"
+                        android:theme="@style/MyButton" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/voice"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#00000000"
+                        android:text="语音播报"
+                        android:textSize="30sp"
+                        android:theme="@style/MyButton" />
+
+                    <Button
+                        android:id="@+id/voice_sb"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#00000000"
+                        android:text="语音识别"
+                        android:textSize="30sp"
+                        android:theme="@style/MyButton" />
+
+                    <Button
+                        android:id="@+id/sb_result"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#00000000"
+                        android:text="识别结果"
+                        android:textSize="30sp"
+                        android:theme="@style/MyButton" />
+
+                    <Button
+                        android:id="@+id/car_photo_basic"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#00000000"
+                        android:text="原始拍照"
+                        android:textSize="30sp"
+                        android:theme="@style/MyButton" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/rfid_sq"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#00000000"
+                        android:text="RFID扇区"
+                        android:textSize="30sp"
+                        android:theme="@style/MyButton" />
+
+                    <Button
+                        android:id="@+id/rfid_read"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#00000000"
+                        android:text="RFID读"
+                        android:textSize="30sp"
+                        android:theme="@style/MyButton" />
+
+                    <Button
+                        android:id="@+id/rfid_write"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#00000000"
+                        android:text="RFID写"
+                        android:textSize="30sp"
+                        android:theme="@style/MyButton" />
+
+                    <Button
+                        android:id="@+id/image_debug"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#00000000"
+                        android:text="白卡密钥"
+                        android:textSize="30sp"
+                        android:theme="@style/MyButton" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/left_dt_debug_btn"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#00000000"
+                        android:text="左转掉头"
+                        android:textSize="30sp"
+                        android:theme="@style/MyButton" />
+
+                    <Button
+                        android:id="@+id/right_dt_debug_btn"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#00000000"
+                        android:text="右转掉头"
+                        android:textSize="30sp"
+                        android:theme="@style/MyButton" />
+
+                    <Button
+                        android:id="@+id/tft_qrcode_debug_btn"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#00000000"
+                        android:text="TFT二维码 "
+                        android:textSize="30sp"
+                        android:theme="@style/MyButton" />
+
+                    <Button
+                        android:id="@+id/image_result_btn"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#00000000"
+                        android:text="图形结果"
+                        android:textSize="30sp"
+                        android:theme="@style/MyButton" />
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

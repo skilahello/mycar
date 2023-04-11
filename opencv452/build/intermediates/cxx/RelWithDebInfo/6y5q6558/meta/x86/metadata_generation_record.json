@@ -1,0 +1,170 @@
+[
+  {
+    "level_": 0,
+    "message_": "Start JSON generation. Platform version: 24 min SDK version: x86",
+    "file_": "E:\\ebuild\\newcar2022\\opencv452\\libcxx_helper\\CMakeLists.txt",
+    "tag_": "release|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 117176306
+  },
+  {
+    "level_": 0,
+    "message_": "rebuilding JSON E:\\ebuild\\newcar2022\\opencv452\\.cxx\\RelWithDebInfo\\6y5q6558\\x86\\android_gradle_build.json due to:",
+    "file_": "E:\\ebuild\\newcar2022\\opencv452\\libcxx_helper\\CMakeLists.txt",
+    "tag_": "release|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -241117153
+  },
+  {
+    "level_": 0,
+    "message_": "- expected json E:\\ebuild\\newcar2022\\opencv452\\.cxx\\RelWithDebInfo\\6y5q6558\\x86\\android_gradle_build.json file is not present, will remove stale json folder",
+    "file_": "E:\\ebuild\\newcar2022\\opencv452\\libcxx_helper\\CMakeLists.txt",
+    "tag_": "release|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1133107285
+  },
+  {
+    "level_": 0,
+    "message_": "- missing previous command file E:\\ebuild\\newcar2022\\opencv452\\.cxx\\RelWithDebInfo\\6y5q6558\\x86\\metadata_generation_command.txt, will remove stale json folder",
+    "file_": "E:\\ebuild\\newcar2022\\opencv452\\libcxx_helper\\CMakeLists.txt",
+    "tag_": "release|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1161009801
+  },
+  {
+    "level_": 0,
+    "message_": "- command changed from previous, will remove stale json folder",
+    "file_": "E:\\ebuild\\newcar2022\\opencv452\\libcxx_helper\\CMakeLists.txt",
+    "tag_": "release|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 906092045
+  },
+  {
+    "level_": 0,
+    "message_": "created folder \u0027E:\\ebuild\\newcar2022\\opencv452\\.cxx\\RelWithDebInfo\\6y5q6558\\x86\u0027",
+    "file_": "E:\\ebuild\\newcar2022\\opencv452\\libcxx_helper\\CMakeLists.txt",
+    "tag_": "release|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1611079871
+  },
+  {
+    "level_": 0,
+    "message_": "executing cmake Executable : C:\\Users\\34652\\AppData\\Local\\Android\\Sdk\\cmake\\3.18.1\\bin\\cmake.exe\narguments : \n-HE:\\ebuild\\newcar2022\\opencv452\\libcxx_helper\n-DCMAKE_SYSTEM_NAME\u003dAndroid\n-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON\n-DCMAKE_SYSTEM_VERSION\u003d24\n-DANDROID_PLATFORM\u003dandroid-24\n-DANDROID_ABI\u003dx86\n-DCMAKE_ANDROID_ARCH_ABI\u003dx86\n-DANDROID_NDK\u003dE:\\ebuild\\AndroidNDK\\android-ndk-r21e\n-DCMAKE_ANDROID_NDK\u003dE:\\ebuild\\AndroidNDK\\android-ndk-r21e\n-DCMAKE_TOOLCHAIN_FILE\u003dE:\\ebuild\\AndroidNDK\\android-ndk-r21e\\build\\cmake\\android.toolchain.cmake\n-DCMAKE_MAKE_PROGRAM\u003dC:\\Users\\34652\\AppData\\Local\\Android\\Sdk\\cmake\\3.18.1\\bin\\ninja.exe\n-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003dE:\\ebuild\\newcar2022\\opencv452\\build\\intermediates\\cxx\\RelWithDebInfo\\6y5q6558\\obj\\x86\n-DCMAKE_RUNTIME_OUTPUT_DIRECTORY\u003dE:\\ebuild\\newcar2022\\opencv452\\build\\intermediates\\cxx\\RelWithDebInfo\\6y5q6558\\obj\\x86\n-DCMAKE_BUILD_TYPE\u003dRelWithDebInfo\n-BE:\\ebuild\\newcar2022\\opencv452\\.cxx\\RelWithDebInfo\\6y5q6558\\x86\n-GNinja\n-DANDROID_STL\u003dc++_static\njvmArgs : \n\n",
+    "file_": "E:\\ebuild\\newcar2022\\opencv452\\libcxx_helper\\CMakeLists.txt",
+    "tag_": "release|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1765825058
+  },
+  {
+    "level_": 0,
+    "message_": "Executable : C:\\Users\\34652\\AppData\\Local\\Android\\Sdk\\cmake\\3.18.1\\bin\\cmake.exe\narguments : \n-HE:\\ebuild\\newcar2022\\opencv452\\libcxx_helper\n-DCMAKE_SYSTEM_NAME\u003dAndroid\n-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON\n-DCMAKE_SYSTEM_VERSION\u003d24\n-DANDROID_PLATFORM\u003dandroid-24\n-DANDROID_ABI\u003dx86\n-DCMAKE_ANDROID_ARCH_ABI\u003dx86\n-DANDROID_NDK\u003dE:\\ebuild\\AndroidNDK\\android-ndk-r21e\n-DCMAKE_ANDROID_NDK\u003dE:\\ebuild\\AndroidNDK\\android-ndk-r21e\n-DCMAKE_TOOLCHAIN_FILE\u003dE:\\ebuild\\AndroidNDK\\android-ndk-r21e\\build\\cmake\\android.toolchain.cmake\n-DCMAKE_MAKE_PROGRAM\u003dC:\\Users\\34652\\AppData\\Local\\Android\\Sdk\\cmake\\3.18.1\\bin\\ninja.exe\n-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003dE:\\ebuild\\newcar2022\\opencv452\\build\\intermediates\\cxx\\RelWithDebInfo\\6y5q6558\\obj\\x86\n-DCMAKE_RUNTIME_OUTPUT_DIRECTORY\u003dE:\\ebuild\\newcar2022\\opencv452\\build\\intermediates\\cxx\\RelWithDebInfo\\6y5q6558\\obj\\x86\n-DCMAKE_BUILD_TYPE\u003dRelWithDebInfo\n-BE:\\ebuild\\newcar2022\\opencv452\\.cxx\\RelWithDebInfo\\6y5q6558\\x86\n-GNinja\n-DANDROID_STL\u003dc++_static\njvmArgs : \n\n",
+    "file_": "E:\\ebuild\\newcar2022\\opencv452\\libcxx_helper\\CMakeLists.txt",
+    "tag_": "release|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1530594467
+  },
+  {
+    "level_": 0,
+    "message_": "Exiting generation of E:\\ebuild\\newcar2022\\opencv452\\.cxx\\RelWithDebInfo\\6y5q6558\\x86\\compile_commands.json.bin normally",
+    "file_": "E:\\ebuild\\newcar2022\\opencv452\\libcxx_helper\\CMakeLists.txt",
+    "tag_": "release|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 191950485
+  },
+  {
+    "level_": 0,
+    "message_": "done executing cmake",
+    "file_": "E:\\ebuild\\newcar2022\\opencv452\\libcxx_helper\\CMakeLists.txt",
+    "tag_": "release|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 593745794
+  },
+  {
+    "level_": 0,
+    "message_": "write command file E:\\ebuild\\newcar2022\\opencv452\\.cxx\\RelWithDebInfo\\6y5q6558\\x86\\metadata_generation_command.txt",
+    "file_": "E:\\ebuild\\newcar2022\\opencv452\\libcxx_helper\\CMakeLists.txt",
+    "tag_": "release|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1649882157
+  },
+  {
+    "level_": 0,
+    "message_": "JSON generation completed without problems",
+    "file_": "E:\\ebuild\\newcar2022\\opencv452\\libcxx_helper\\CMakeLists.txt",
+    "tag_": "release|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1763148418
+  }
+]

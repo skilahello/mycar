@@ -33,7 +33,7 @@ public class XcApplication extends Application {
     }
 
     @Override
-    public void onCreate() {
+    public void onCreate() {//onCreate：创建应用程序时回调，回调时机早于任何 Activity。
         super.onCreate();
         app = this;
         Intent sintent = new Intent();

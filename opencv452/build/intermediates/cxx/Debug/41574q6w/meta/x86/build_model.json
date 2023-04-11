@@ -1,0 +1,171 @@
+{
+  "abi": "X86",
+  "info": {
+    "abi": "X86",
+    "bitness": 32,
+    "deprecated": false,
+    "default": true
+  },
+  "cxxBuildFolder": "E:\\Ebuild\\newcar2022\\opencv452\\.cxx\\Debug\\41574q6w\\x86",
+  "soFolder": "E:\\Ebuild\\newcar2022\\opencv452\\build\\intermediates\\cxx\\Debug\\41574q6w\\obj\\x86",
+  "soRepublishFolder": "E:\\Ebuild\\newcar2022\\opencv452\\build\\intermediates\\cmake\\debug\\obj\\x86",
+  "abiPlatformVersion": 24,
+  "cmake": {
+    "effectiveConfiguration": {
+      "inheritEnvironments": [],
+      "variables": []
+    }
+  },
+  "variant": {
+    "buildSystemArgumentList": [
+      "-DANDROID_STL\u003dc++_static"
+    ],
+    "cFlagsList": [],
+    "cppFlagsList": [],
+    "variantName": "debug",
+    "soFolder": "E:\\Ebuild\\newcar2022\\opencv452\\build\\intermediates\\cxx\\Debug\\41574q6w\\obj",
+    "soRepublishFolder": "E:\\Ebuild\\newcar2022\\opencv452\\build\\intermediates\\cmake\\debug\\obj",
+    "cxxBuildFolder": "E:\\Ebuild\\newcar2022\\opencv452\\.cxx\\Debug\\41574q6w",
+    "intermediatesFolder": "E:\\Ebuild\\newcar2022\\opencv452\\build\\intermediates\\cxx\\Debug\\41574q6w",
+    "isDebuggableEnabled": true,
+    "validAbiList": [
+      "ARMEABI_V7A",
+      "ARM64_V8A",
+      "X86",
+      "X86_64"
+    ],
+    "buildTargetSet": [
+      "opencv_jni_shared"
+    ],
+    "implicitBuildTargetSet": [],
+    "cmakeSettingsConfiguration": "android-gradle-plugin-predetermined-name",
+    "module": {
+      "cxxFolder": "E:\\Ebuild\\newcar2022\\opencv452\\.cxx",
+      "intermediatesBaseFolder": "E:\\Ebuild\\newcar2022\\opencv452\\build\\intermediates",
+      "intermediatesFolder": "E:\\Ebuild\\newcar2022\\opencv452\\build\\intermediates\\cxx",
+      "gradleModulePathName": ":opencv452",
+      "moduleRootFolder": "E:\\Ebuild\\newcar2022\\opencv452",
+      "moduleBuildFile": "E:\\Ebuild\\newcar2022\\opencv452\\build.gradle",
+      "makeFile": "E:\\Ebuild\\newcar2022\\opencv452\\libcxx_helper\\CMakeLists.txt",
+      "buildSystem": "CMAKE",
+      "ndkFolder": "E:\\ebuild\\AndroidNDK\\android-ndk-r21e",
+      "ndkVersion": "21.4.7075529",
+      "ndkSupportedAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "ndkDefaultAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "ndkDefaultStl": "LIBCXX_STATIC",
+      "ndkMetaPlatforms": {
+        "min": 16,
+        "max": 30,
+        "aliases": {
+          "20": 19,
+          "25": 24,
+          "J": 16,
+          "J-MR1": 17,
+          "J-MR2": 18,
+          "K": 19,
+          "L": 21,
+          "L-MR1": 22,
+          "M": 23,
+          "N": 24,
+          "N-MR1": 24,
+          "O": 26,
+          "O-MR1": 27,
+          "P": 28,
+          "Q": 29,
+          "R": 30
+        }
+      },
+      "ndkMetaAbiList": [
+        {
+          "abi": "ARMEABI_V7A",
+          "bitness": 32,
+          "deprecated": false,
+          "default": true
+        },
+        {
+          "abi": "ARM64_V8A",
+          "bitness": 64,
+          "deprecated": false,
+          "default": true
+        },
+        {
+          "abi": "X86",
+          "bitness": 32,
+          "deprecated": false,
+          "default": true
+        },
+        {
+          "abi": "X86_64",
+          "bitness": 64,
+          "deprecated": false,
+          "default": true
+        }
+      ],
+      "cmakeToolchainFile": "E:\\ebuild\\AndroidNDK\\android-ndk-r21e\\build\\cmake\\android.toolchain.cmake",
+      "cmake": {
+        "isValidCmakeAvailable": true,
+        "cmakeExe": "C:\\Users\\34652\\AppData\\Local\\Android\\Sdk\\cmake\\3.18.1\\bin\\cmake.exe",
+        "minimumCmakeVersion": "3.18.1",
+        "ninjaExe": "C:\\Users\\34652\\AppData\\Local\\Android\\Sdk\\cmake\\3.18.1\\bin\\ninja.exe"
+      },
+      "stlSharedObjectMap": {
+        "LIBCXX_SHARED": {
+          "ARMEABI_V7A": "E:\\ebuild\\AndroidNDK\\android-ndk-r21e\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\arm-linux-androideabi\\libc++_shared.so",
+          "ARM64_V8A": "E:\\ebuild\\AndroidNDK\\android-ndk-r21e\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\aarch64-linux-android\\libc++_shared.so",
+          "X86": "E:\\ebuild\\AndroidNDK\\android-ndk-r21e\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\i686-linux-android\\libc++_shared.so",
+          "X86_64": "E:\\ebuild\\AndroidNDK\\android-ndk-r21e\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\x86_64-linux-android\\libc++_shared.so"
+        },
+        "LIBCXX_STATIC": {},
+        "NONE": {},
+        "SYSTEM": {}
+      },
+      "project": {
+        "rootBuildGradleFolder": "E:\\Ebuild\\newcar2022",
+        "sdkFolder": "C:\\Users\\34652\\AppData\\Local\\Android\\Sdk",
+        "isBuildOnlyTargetAbiEnabled": true,
+        "isCmakeBuildCohabitationEnabled": false,
+        "isPrefabEnabled": false
+      },
+      "outputOptions": []
+    },
+    "prefabClassPathFileCollection": [],
+    "prefabPackageDirectoryListFileCollection": [],
+    "stlType": "c++_static",
+    "optimizationTag": "Debug"
+  },
+  "buildSettings": {
+    "environmentVariables": []
+  },
+  "prefabFolder": "E:\\Ebuild\\newcar2022\\opencv452\\.cxx\\Debug\\41574q6w\\prefab\\x86",
+  "isActiveAbi": true,
+  "fullConfigurationHash": "41574q6w4o4h4k3o3t46q4d3i6b2f3o1t3d85h5s64w4924j1i4c6s5x2d3d",
+  "configurationArguments": [
+    "-HE:\\Ebuild\\newcar2022\\opencv452\\libcxx_helper",
+    "-DCMAKE_SYSTEM_NAME\u003dAndroid",
+    "-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON",
+    "-DCMAKE_SYSTEM_VERSION\u003d24",
+    "-DANDROID_PLATFORM\u003dandroid-24",
+    "-DANDROID_ABI\u003dx86",
+    "-DCMAKE_ANDROID_ARCH_ABI\u003dx86",
+    "-DANDROID_NDK\u003dE:\\ebuild\\AndroidNDK\\android-ndk-r21e",
+    "-DCMAKE_ANDROID_NDK\u003dE:\\ebuild\\AndroidNDK\\android-ndk-r21e",
+    "-DCMAKE_TOOLCHAIN_FILE\u003dE:\\ebuild\\AndroidNDK\\android-ndk-r21e\\build\\cmake\\android.toolchain.cmake",
+    "-DCMAKE_MAKE_PROGRAM\u003dC:\\Users\\34652\\AppData\\Local\\Android\\Sdk\\cmake\\3.18.1\\bin\\ninja.exe",
+    "-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003dE:\\Ebuild\\newcar2022\\opencv452\\build\\intermediates\\cxx\\Debug\\41574q6w\\obj\\x86",
+    "-DCMAKE_RUNTIME_OUTPUT_DIRECTORY\u003dE:\\Ebuild\\newcar2022\\opencv452\\build\\intermediates\\cxx\\Debug\\41574q6w\\obj\\x86",
+    "-DCMAKE_BUILD_TYPE\u003dDebug",
+    "-BE:\\Ebuild\\newcar2022\\opencv452\\.cxx\\Debug\\41574q6w\\x86",
+    "-GNinja",
+    "-DANDROID_STL\u003dc++_static"
+  ]
+}

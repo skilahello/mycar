@@ -877,7 +877,7 @@ public class MainActivity extends AppCompatActivity {
                         0xFF7BA23F, 0xFF7B90D2, 0xFFB28FCE, 0xFF6A4C9C
                 };                                           //界面的颜色组
                 Random num = new Random();
-                int s = num.nextInt(Color.length - 1);
+                int s = num.nextInt(Color.length - 1);//生成0到Color下标的随机数
                 int color = Color[s];                         //产生随机数
                 Log.e("onPageSelected: ", s + "");
 

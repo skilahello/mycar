@@ -19,7 +19,9 @@ import com.google.android.material.snackbar.Snackbar;
 public class Zigbee_Activity extends Fragment implements View.OnClickListener{
     private ControlCommand controlCommand;
     private EditText xzled_text,dimming_text,infrared04_text,infrared06_text;
-    private Button dimming_button,dimminggain_button,distance_button,alertor_button,infrared04_button,infrared06_button,road_button,lcdup_button,lcddown_button,lcddt_button,xzcp_button,car_smg_btn;
+    private Button dimming_button, dimminggain_button,distance_button,alertor_button,
+            infrared04_button,infrared06_button,road_button,lcdup_button,lcddown_button,
+            lcddt_button,xzcp_button,car_smg_btn;
     private Vibrator vibrator;//震动
     @Nullable
     @Override
